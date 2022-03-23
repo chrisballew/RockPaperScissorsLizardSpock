@@ -1,7 +1,21 @@
-#algorithm
-#1 display a welcome
-#2 Display rules of game
-#3 single player or multiplayer (user input)
+
+
+def display_welcome():
+    print("Welcome to Rock, Paper, Scissors, Lizard, Spock!")
+
+def display_rules():
+    print("Rock crushes Scissors")
+    print("Scissors cuts Paper")
+    print("Paper covers Rock")
+    print("Rock crushes Lizard")
+    print("Lizard poisons Spock")
+    print("Spock smashes Scissors")
+    print("Scissors decapitates Lizard")
+    print("Lizard eats Paper")
+
+def single_or_multiplayer():
+
+
 #4 choose first player to go
 #5 player who goes first chooses a gesture
 #6 second player chooses a gesture
@@ -13,7 +27,19 @@
 #12 display the winner
 
 #classes
-#1 player (parent)
-#2 Game
-#3 human (child) >inherits from player
-#4 AI (child) > inherits from player
+class Player:
+    def __init__(self):
+        pass
+
+class Game:
+    def __init__(self):
+        pass
+
+class human(Player):
+    def __init__(self):
+        super().__init__()
+
+class AI(Player):
+    def __init__(self):
+
+        super().__init__()
