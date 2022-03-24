@@ -7,8 +7,9 @@ class Game:
         self.player_1 = human("Chris")
         self.player_2 = AI("R2-D2")
 
-    def run_game():
-        pass
+    def run_game(self):
+        self.player_1_score = 0
+        self.player_2_score = 0
 
     def display_welcome():
         print("Welcome to Rock, Paper, Scissors, Lizard, Spock!")
@@ -30,15 +31,14 @@ class Game:
         print("Press 1 for singleplayer or 2 for multiplayer")
         self.game_mode = input("")
         if self.game_mode == "1":
-            print("You dare challenge the computer?!")
-            #player 1 is human
-            #player 2 is ai
+            print("You dare challenge the computer?!")    
 
-        #elif selfgamemode == 2
-            #multiplayer selected
-            #player 1 is human
-            #player 2 is human
+        elif self.game_mode == "2":
+            print("You have selected multiplayer!")
+            self.player_2 = human("Deondre")
 
-        #else 
-            #print whatchu talkin bout willis
+        else:
+            print("whatchu talkin bout willis?")
 
+    def referee(self):
+        if self.player_1.chosen_gesture = ""
