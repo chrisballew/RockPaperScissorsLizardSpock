@@ -24,7 +24,9 @@ class Game:
             print("Scissors decapitates Lizard")
             print("Lizard eats Paper")
         else:
-            pass
+            return(rules_input)
 
     def single_or_multiplayer():
         print("Would you like to play against the computer, or against a friend?")
+
+        
