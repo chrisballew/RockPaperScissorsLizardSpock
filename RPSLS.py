@@ -1,17 +1,20 @@
 
+class Game:
+    def __init__(self):
+        pass
 
 def display_welcome():
     print("Welcome to Rock, Paper, Scissors, Lizard, Spock!")
 
 def display_rules():
-    print("Rock crushes Scissors")
-    print("Scissors cuts Paper")
-    print("Paper covers Rock")
-    print("Rock crushes Lizard")
-    print("Lizard poisons Spock")
-    print("Spock smashes Scissors")
-    print("Scissors decapitates Lizard")
-    print("Lizard eats Paper")
+    #print("Rock crushes Scissors")
+    #print("Scissors cuts Paper")
+    #print("Paper covers Rock")
+    #print("Rock crushes Lizard")
+    #print("Lizard poisons Spock")
+    #print("Spock smashes Scissors")
+    #print("Scissors decapitates Lizard")
+    #print("Lizard eats Paper")
 
 def single_or_multiplayer():
 
@@ -25,21 +28,3 @@ def single_or_multiplayer():
 #10 repeat steps 4-9
 #11 whoever gets the best of three first is the winner
 #12 display the winner
-
-#classes
-class Player:
-    def __init__(self):
-        pass
-
-class Game:
-    def __init__(self):
-        pass
-
-class human(Player):
-    def __init__(self):
-        super().__init__()
-
-class AI(Player):
-    def __init__(self):
-
-        super().__init__()
