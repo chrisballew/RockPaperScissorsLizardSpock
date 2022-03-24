@@ -26,5 +26,19 @@ class Game:
         else:
             pass
 
-    def single_or_multiplayer():
-        print("Would you like to play against the computer, or against a friend?")
+    def single_or_multiplayer(self):
+        print("Press 1 for singleplayer or 2 for multiplayer")
+        self.game_mode = input("")
+        if self.game_mode == "1":
+            print("You dare challenge the computer?!")
+            #player 1 is human
+            #player 2 is ai
+
+        #elif selfgamemode == 2
+            #multiplayer selected
+            #player 1 is human
+            #player 2 is human
+
+        #else 
+            #print whatchu talkin bout willis
+
