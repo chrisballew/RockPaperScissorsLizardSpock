@@ -4,6 +4,7 @@ class human(Player):
     def __init__(self):
         super().__init__()
         self.gesture
+        
 
     def choose_gesture(self):
         self.chosen_gesture = self.gesture[0:4]

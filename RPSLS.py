@@ -7,10 +7,10 @@ class Game:
         pass
 
     def run_game(self):
+        self.player_1 = human("Chris")
+        self.player_2 = AI
         self.display_welcome()
         self.single_or_multiplayer()
-        self.player_1 = human
-        self.player_2 = AI
         while (self.player_1.player_score < 2 and self.player_2.player_score < 2):
             self.player_1.choose_gesture()
             self.player_2.choose_gesture()
