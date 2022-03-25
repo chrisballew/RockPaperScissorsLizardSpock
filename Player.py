@@ -1,12 +1,8 @@
-from Human import human
-from AI import AI
-
 class Player:
-    def __init__(self, gesture):
+    def __init__(self):
         self.gesture = ["rock", "paper", "scissors", "lizard", "spock"]
-       # self.player = name
+        self.name = "R2-D2"
+        self.player_score = 0
 
-       
-
-Chris = human()
-print(Chris)
+    def choose_gesture():
+        pass

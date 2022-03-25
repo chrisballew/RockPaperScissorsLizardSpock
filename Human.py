@@ -1,12 +1,14 @@
 from Player import Player
 
 class human(Player):
-    def __init__(self, name):
-        super().__init__(name)
+    def __init__(self):
+        super().__init__()
+        self.gesture
 
     def choose_gesture(self):
-        self.chosen_gesture = self.gesture(0, 4)
+        self.chosen_gesture = self.gesture[0:4]
         user_input = (input('Pick a gesture: '))
+        user_input = user_input.lower
         if user_input == self.gesture[0]:
             print("You chose rock.")
             return self.gesture[0]
